@@ -1,0 +1,62 @@
+# built application files
+*.apk
+*.ap_
+*.jar
+!gradle/wrapper/gradle-wrapper.jar
+
+# lint folder
+lint
+
+# files for the dex VM
+*.dex
+
+# Java class files
+*.class
+
+# generated files
+bin/
+gen/
+classes/
+gen-external-apklibs/
+
+# maven output folder
+target
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Eclipse project files
+.classpath
+.project
+.metadata
+.settings
+
+# gradle directory
+.gradle
+build/
+
+# Android Studio
+/captures
+.idea
+/*/local.properties
+/*/out
+/*/*/build
+/*/*/production
+*.iml
+*.iws
+*.ipr
+*~
+
+# vi swap files
+*.swp
+
+# backup files
+*.bak
+
+# OSX
+.DS_Store
+
+# Windows files
+Thumbs.db
+
+
